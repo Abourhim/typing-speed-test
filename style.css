@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+    width: 315px;
+    height: 150px;
+    border-radius: 5px;
+}
+#para {
+    font: 20px sans-serif;
+}
+
+#container {
+    display: flex;
+    font: 1.5em sans-serif;
+    margin-top: 10px;
+}
+
+#res {
+    border-radius: 5px;
+    border: 2px solid gold;
+    cursor: pointer;
+    margin-left: 11.3em;
+}
